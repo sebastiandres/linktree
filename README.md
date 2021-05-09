@@ -13,3 +13,4 @@
 ** Testing it**:
   * Just go to [home](https://htmlpreview.github.io/?https://github.com/sebastiandres/linktree/blob/main/home.html) or click on the file online_test.html.
   * online_test is a simple redirect as in https://www.w3schools.com/howto/howto_js_redirect_webpage.aspss
+  * scrolling http://jsfiddle.net/leongaban/6rd2hhpq/8/
