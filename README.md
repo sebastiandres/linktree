@@ -11,5 +11,5 @@
 * **links_v3.html**: Third version, handles the details of smartphone: proper width and height, text wrapping. + Includes a "linktree version" so its easier to know when you need to upgrade an old link.
 
 ** Testing it**:
-  * Just go to [home](https://raw.githack.com/sebastiandres/linktree/main/home.html) or click on the file online_test.html.
-  * online_test is a simple redirect as in https://www.w3schools.com/howto/howto_js_redirect_webpage.asp
+  * Just go to [home](https://htmlpreview.github.io/?https://github.com/sebastiandres/linktree/blob/main/home.html) or click on the file online_test.html.
+  * online_test is a simple redirect as in https://www.w3schools.com/howto/howto_js_redirect_webpage.aspss
