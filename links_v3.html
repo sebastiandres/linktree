@@ -4,24 +4,29 @@
         <style>
             html {background-color:#3d3b3c; font-family: Karla, sans-serif; font-size: 16px; font-weight: 700;}
             h3, h2, h1 { color:#ffffff; margin-bottom: 16px; text-align: center;}
-            a {text-decoration: none!important;}
+            div.version {color:gray; text-align: center; font-size: 10px}
             @media (orientation: landscape) {
-                div {position: fixed; left: 50%; -webkit-transform: translate(-50%, 0%); transform: translate(-50%, 0%);}
+                div.link {position: fixed; left: 50%; -webkit-transform: translate(-50%, 0%); transform: translate(-50%, 0%);}
                 p  {background-color:#ffffff; color:#3d3b3c; line-height: 56px; width: 676px;
                     border: 2px solid rgb(255, 255, 255); margin-bottom: 16px; text-align: center;}
+                a {text-decoration: none!important;}
             }
                 
             @media (orientation: portrait) {
-                div {position: fixed; left: 50%; -webkit-transform: translate(-50%, 0%); transform: translate(-50%, 0%);}
-                p  {background-color:#ffffff; color:#3d3b3c; line-height: 56px; width: 90vw;
+                div.link {position: fixed; left: 50%; -webkit-transform: translate(-50%, 0%); transform: translate(-50%, 0%);}
+                p  {background-color:#ffffff; color:#3d3b3c; line-height: 176px; width: 94vw;
                     border: 2px solid rgb(255, 255, 255); margin-bottom: 16px; text-align: center;}
+                a {text-decoration: none!important; font-size: 2.5em}
+                h1 { font-size: 3.5em;}
+                h2 { font-size: 3.0em;}
+                h3 { font-size: 2.5em;}
             }
             p:hover {background-color:#3d3b3c; color:rgb(255, 255, 255);}
         </style>
     </head>
 
     <body>
-        <div>
+        <div class="link">
             <h3>REEMPLAZAR: <br>REPOSITORY por el nombre del repositorio y FILENAME por el nombre del notebook.</h4>
             <h1>TEMPLATE - X X 202X </h1>
             <h3>Talk Description</h3>
@@ -43,6 +48,7 @@
             <a href="https://linktr.ee/sebastiandres">
                 <p>⇦ linktree</p>
             </a>
-    </div>
+            <div class="version">Linktree emulator v.3</div>
+        </div>
     </body>
 </html>
