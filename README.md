@@ -10,7 +10,9 @@
 
 * **links_v3.html**: Third version, handles the details of smartphone: proper width and height, text wrapping, and font size. Includes a "linktree version" so its easier to know when you need to upgrade an old link.
 
+* **links_v4.html**: Fourth version. Let's move all the style to a file, so we only need to update that instead of updating all the files, d'ouh! That's why css where invented on the first place, to separate CONTENT from STYLE.
+
 ** Testing it**:
-  * Just go to [home](https://htmlpreview.github.io/?https://github.com/sebastiandres/linktree/blob/main/home.html) or click on the file online_test.html.
-  * online_test is a simple redirect as in https://www.w3schools.com/howto/howto_js_redirect_webpage.aspss
-  * scrolling http://jsfiddle.net/leongaban/6rd2hhpq/8/
+  * Just go to [index.html](https://sebastiandres.github.io/linktree/index.html) or, if at the local repo, click on the file online_test.html.
+  * online_test is a simple redirect
+  * 
