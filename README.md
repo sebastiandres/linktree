@@ -10,9 +10,9 @@
 
 * **links_v3.html**: Third version, handles the details of smartphone: proper width and height, text wrapping, and font size. Includes a "linktree version" so its easier to know when you need to upgrade an old link.
 
-* **links_v4.html**: Fourth version. Let's move all the style to a file, so we only need to update that instead of updating all the files, d'ouh! That's why css where invented on the first place, to separate CONTENT from STYLE.
+* **links_v4.html**: Fourth version. Let's move all the style to a file, so we only need to update that instead of updating all the files, d'ouh! That's why css where invented on the first place, to separate CONTENT from STYLE. It worked OK on local, but then I couldnt make it work in other repos. It was because the css file was relative. So I created a link_latest.html and style_latest.css that test that, and after some tweaking, got it working. But it still needed to use https://raw.githack.com to properly render the css file with proper mime type (shame on you, github).
+
+* **links_latest.html**: The lastest version, the one that should be copied and tweaked into each version (local or not). Makes use of style_latest.css + https://raw.githack.com.
 
 ** Testing it**:
   * Just go to [index.html](https://sebastiandres.github.io/linktree/index.html) or, if at the local repo, click on the file online_test.html.
-  * online_test is a simple redirect
-  * 
