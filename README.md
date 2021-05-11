@@ -27,8 +27,5 @@
 * Links not working? Must activate github pages on the repository.
 * Not showing properly? Do a hard refresh on site  + give it some time, some things get cached (on your computer or on rawgithack). 
 
-** raw.githack.com ** 
-En el sitio https://raw.githack.com hay que actualizar los archivos:
-* https://sebastiandres.github.io/linktree/latest_links.css
-* https://sebastiandres.github.io/linktree/latest_links.html
-* https://sebastiandres.github.io/linktree/latest_version.css
+** MIME types ** 
+Los archivos latest_links.css y latest_copyright.html no se pueden enlazar directamente (raw) porque no tienen el mime type correcto. Probé con htmlpreview y raw.githack, pero no se actualizaban rápidamente. Finalmente usé digitalocean para generar el sitio estático y desde ahí vincular los archivos. Se debe hacer una vez, y después el enlace queda estable y se actualiza casi inmediatamente al hacer push de los archivos. Maravilloso.
