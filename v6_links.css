@@ -19,9 +19,10 @@ h5, h4, h3, h2, h1 {color:var(--font-hover-color); margin-bottom: 16px; text-ali
 }
   
 @media (orientation: portrait) {
-  p {background-color:var(--button-color); color:var(--font-color); font-weight: 550; line-height: 24px; height: 40px;
-     padding:40px 66px; border: 2px solid var(--border-color);  text-align: center; margin-top: 0px;}
-  a {text-decoration: none!important; font-size: 1.0em; text-align: center;}
+  p {background-color:var(--button-color); color:var(--font-color); font-weight: 550; line-height: 24px; 
+    height: 40px; width: 100%-80px;
+    padding:40px 66px; border: 2px solid var(--border-color);  text-align: center; margin-top: 0px;}
+  a {text-decoration: none!important; font-size: 2.0em; text-align: center;}
   h1 {font-size: 3.0em;}
   h2 {font-size: 2.5em;}
   h3 {font-size: 2.0em;}
