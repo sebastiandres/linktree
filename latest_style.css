@@ -15,6 +15,7 @@ h5, h4, h3, h2, h1 {color:var(--font-hover-color); margin-bottom: 16px; text-ali
 @media (orientation: landscape) {
   html { display: flex; flex-direction: row; }
   p {background-color:var(--button-color); color:var(--font-color); font-weight: 550; line-height: 24px;
+     width: 544px; 
      padding:16px 66px; border: 2px solid var(--border-color); text-align: center; }
   a {text-decoration: none!important;}
 }
