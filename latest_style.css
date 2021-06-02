@@ -6,7 +6,7 @@
   --font-color: #3d3b3c;
   --font-hover-color: #ffffff;
 }
-
+  
 html {background-color:var(--bg-color); font-family: Karla, sans-serif; font-size: 16px;
   width: 100%; justify-content: center; overflow-y: scroll;}
 
