@@ -24,10 +24,10 @@ h5, h4, h3, h2, h1 {color:var(--font-hover-color); margin-bottom: 16px; text-ali
   p {background-color:var(--button-color); color:var(--font-color); font-weight: 550; line-height: 24px; 
     height: 40px;
     padding:40px 66px; border: 2px solid var(--border-color);  text-align: center; margin-top: 0px;}
-  a {text-decoration: none!important; font-size: 2.0em; text-align: center;}
-  h1 {font-size: 3.0em;}
-  h2 {font-size: 2.5em;}
-  h3 {font-size: 2.0em;}
+  a {text-decoration: none!important; font-size: 3.0em; text-align: center;}
+  h1 {font-size: 4.0em;}
+  h2 {font-size: 3.5em;}
+  h3 {font-size: 3.0em;}
 }
 
 p:hover {background-color:var(--button-hover-color); color:var(--font-hover-color);}
